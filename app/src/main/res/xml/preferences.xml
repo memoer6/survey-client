@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="first_name_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_first_name" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="last_name_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_last_name" />
+    <ListPreference
+        android:defaultValue="Male"
+        android:entries="@array/pref_gender_list_titles"
+        android:entryValues="@array/pref_gender_list_values"
+        android:key="gender_preference"
+        android:title="@string/pref_title_gender" />
+    <com.example.eduardo.survey.view.NumberPickerPreference
+        android:key="birth_year_preference"
+        android:title="@string/pref_title_birth_year"
+        android:defaultValue="1990" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="street_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_street" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="city_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_city" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="postal_code_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_postal_code" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="email_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_email" />
+    <EditTextPreference
+        android:defaultValue=' '
+        android:key="phone_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_phone" />
+</PreferenceScreen>
